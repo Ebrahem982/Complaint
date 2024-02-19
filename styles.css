@@ -1,0 +1,85 @@
+body {
+    font-family: 'Tajawal';
+    src: url(Tajawal-Regular.ttf);
+    margin: 0;
+    padding: 0;
+    font-family: Tajawal;
+    font-size: 20px;
+    background-color: bisque(80, 200, 300);
+    background-image: url(شكوتي.icon);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(247, 238, 238);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.navbar {
+    background-color: rgb(61, 60, 60);
+}
+
+.navbar-list {
+    list-style: none;
+
+}
+
+.navbar-item {
+    display: inline-block;
+    height: 50px;
+    width: 8rem;
+    line-height: 50px;
+    text-align: center;
+    transition: .2s;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: rgb(245, 238, 238);
+    display: block;
+
+}
+
+
+.navbar a:hover {
+    background-color: #00d1b1;
+    ;
+    transition: .2s;
+}
+
+@media(max-width:650px) {
+    .navbar-item {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
